@@ -30,9 +30,9 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             if (f.Status == DialogResult.OK)
             {
                 Articolo a = new Articolo();
-                articoli.Add();
-                Articolo a = new Articolo();
                 articoli.Add(a);
+                
+                
                 lblArticoliInseriti.Text = $"Articoli ({articoli.Count})";
             }
         }
