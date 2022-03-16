@@ -29,8 +29,10 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
             if (f.Status == DialogResult.OK)
             {
-                Articolo a = new Articolo(txtNome.Text, lblIndirizzo.Text, lblTelefono.Text, lblCitta.Text);
-
+                Articolo a = new Articolo();
+                articoli.Add();
+                Articolo a = new Articolo();
+                articoli.Add(a);
                 lblArticoliInseriti.Text = $"Articoli ({articoli.Count})";
             }
         }
