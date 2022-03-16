@@ -26,6 +26,11 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             this.prezzo = prezzo;
         }
 
+        public string ArticoliInseriti { get; internal set; }
+        public string Descrizione { get; internal set; }
+        public string Prezzo { get; internal set; }
+        public string UnitaMisura { get; internal set; }
+
         public string Visualizzati()
         {
             return $"{descrizione} {unitaMisura} {prezzo} ({codice})";
